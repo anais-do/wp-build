@@ -1,6 +1,23 @@
-#nav {
-    margin: 15px;
+.container{
+    width:60%;
 }
-#green {
-    text-align: center;
+.jumbotron{
+    text-align:center;
+}
+.jumbotron .btn{
+    color:#FFF !important;
+}
+.navbar {
+    border-bottom-color: #eee;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom:20px !important;
+    padding:20px 0;
+}
+.list {
+   border-bottom-color: #ddd;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom:30px !important;
+    padding:20px 0; 
 }
