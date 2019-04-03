@@ -77,3 +77,8 @@ body {
     border-bottom: 0;
   }
 }
+
+html {
+  background-image: 
+  url("http://lorempixel.com/g/800/800");
+}
