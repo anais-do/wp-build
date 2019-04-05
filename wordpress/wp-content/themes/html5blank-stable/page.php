@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<main>
+	<main class="main">
 		<!-- section -->
 		<section>
 
@@ -11,7 +11,7 @@
 
 				<?php the_content(); ?>
 
-				<?php comments_template( '', true ); // Remove if you don't want comments ?>
+				<?php // comments_template( '', true ); // Remove if you don't want comments ?>
 
 				<br class="clear">
 

@@ -41,12 +41,13 @@
 					<!-- /logo -->
 
 					<!-- nav -->
-					<nav class="nav" role="navigation">
+					<nav>
 						<?php html5blank_nav(); ?>
 					</nav>
+					<h1><?php the_title(); ?></h1>
 					<!-- /nav -->
 
 			</div>
 			<!-- /header -->
 			
-			<h1><?php the_title(); ?></h1>
+			
