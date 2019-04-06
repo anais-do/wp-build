@@ -2,6 +2,7 @@
 body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  background-image: url("http://lorempixel.com/g/800/800");
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -35,6 +36,9 @@ body {
 @media (min-width: 48em) {
   .container {
     max-width: 46rem;
+    background-color: white;
+    border-radius: 25px;
+    padding: 3rem;
   }
 }
 .container-narrow > hr {
@@ -76,9 +80,4 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
-}
-
-html {
-  background-image: 
-  url("http://lorempixel.com/g/800/800");
 }
